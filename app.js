@@ -80,7 +80,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/",(req,res)=>{
-     res.render("show");
+     res.render("show.ejs");
 })
 
 app.use("/listings", listingRouter);
